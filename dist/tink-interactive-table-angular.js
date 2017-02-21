@@ -94,6 +94,7 @@
       priority: 1500,
       replace:true,
       scope:{
+	tinkCtrl: '=',
         tinkData:'=',
         tinkHeaders:'=',
         tinkActions:'=',
