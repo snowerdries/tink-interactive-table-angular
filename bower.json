@@ -1,6 +1,6 @@
 {
   "name": "tink-interactive-table-angular",
-  "version": "3.1.0",
+  "version": "3.3.4",
   "main": [
     "dist/tink-interactive-table-angular.js"
   ],
@@ -25,9 +25,12 @@
     "ng-lodash": "~0.2.0",
     "Sortable": "~1.1.1",
     "tink-core": "latest",
-    "tink-popover-angular": "~1.0.3",
-    "tink-sort-table-angular": "~2.0.3",
-    "tink-tooltip-angular": "~2.0.4"
+    "tink-pagination-angular": "latest",
+    "tink-popover-angular": "latest",
+    "tink-sort-table-angular": "latest",
+    "tink-tooltip-angular": "latest",
+    "tink-navigation-angular": "^2.0.1",
+    "angular-ui-router": "^0.3.1"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.3",

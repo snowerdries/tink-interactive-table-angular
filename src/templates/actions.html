@@ -1,0 +1,22 @@
+<div class="popover-menu-list">
+  <!-- Mobile -->
+  <ul ng-if="!actionConf.menu" >
+    <li  data-ng-repeat="action in MoreActions()" data-ng-disabled="elemDisabled(action)" data-ng-click="actionCallBack(action)">
+      <i class="fa {{action.icon}} fa-fw"></i>
+      <span >{{action.name}}</span>
+    </li>
+  </ul>
+
+  <!-- Desktop -->
+  <ul ng-if="actionConf.menu">
+    <li data-ng-repeat="action in tinkActions | filter: { master: true } | tinkActionFilter: tinkActions : 'master' | orderBy:'+order'" data-ng-disabled="elemDisabled(action)" data-ng-click="actionCallBack(action)">
+      <i class="fa {{action.icon}} fa-fw"></i>
+      <span>{{action.name}}</span>
+    </li>
+    <hr ng-if="masterObject().length > 0 && subObject().length > 0">
+    <li data-ng-repeat="action in tinkActions | filter: { master: false } | tinkActionFilter: tinkActions | orderBy:'+order'" data-ng-disabled="elemDisabled(action)" data-ng-click="actionCallBack(action)">
+      <i class="fa {{action.icon}} fa-fw"></i>
+      <span>{{action.name}}</span>
+    </li>
+  </ul>
+</div>
