@@ -202,6 +202,9 @@
 
                             function getDataWithNoAlwaysEnabledButtons(master) {
                                 var data = [];
+                                if(!scope.tinkActions)
+                                    return data;
+                                    
                                 for (var i = scope.tinkActions.length - 1; i >= 0; i--) {
                                     if (scope.tinkActions[i] && scope.tinkActions[i].alwaysEnabled !== true && scope.tinkActions[i].master === master) {
                                         data.push(scope.tinkActions[i]);
