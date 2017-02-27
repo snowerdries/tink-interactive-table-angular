@@ -106,7 +106,8 @@
         tinkForceResponsive:'=',
         tinkChecked:'&',
         tinkShowCheckboxes:'=',
-        tinkHideBackgroundOfSelectedRows:'='
+        tinkHideBackgroundOfSelectedRows:'=',
+        tinkCtrl: '='
       },
       controller:'interactiveCtrl',
       templateUrl:'templates/interactive-table.html',
