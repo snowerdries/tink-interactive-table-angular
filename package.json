@@ -1,7 +1,7 @@
 {
   "name": "tink-interactive-table-angular",
   "description": "Tink interactive table Angular directive",
-  "version": "3.5.0",
+  "version": "3.9.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:tinkkit/tink-interactive-table-angular.git"
@@ -9,7 +9,7 @@
   "dependencies": {
     "bower": "^1.3.12",
     "grunt-cli": "^0.1.13",
-    "grunt-sass":"^1.1.0"
+    "grunt-sass":"^2.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
@@ -29,7 +29,7 @@
     "grunt-karma": "~0.10.1",
     "grunt-newer": "^0.7.0",
     "grunt-replace": "~0.8.0",
-    "grunt-sass": "^1.1.0",
+    "grunt-sass": "^2.0.0",
     "grunt-svgmin": "^0.4.0",
     "grunt-usemin": "^2.1.1",
     "grunt-wiredep": "^1.7.0",
@@ -43,7 +43,7 @@
     "karma-phantomjs-launcher": "~0.1.4",
     "karma-sauce-launcher": "~0.2.10",
     "load-grunt-tasks": "^0.4.0",
-    "node-sass": "^2.1.1",
+    "node-sass": "^4.0.0",
     "semver": "~4.3.3",
     "time-grunt": "^0.3.1"
   },

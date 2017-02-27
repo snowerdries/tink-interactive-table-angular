@@ -1,6 +1,6 @@
 {
   "name": "tink-interactive-table-angular",
-  "version": "3.5.0",
+  "version": "3.9.0",
   "main": [
     "dist/tink-interactive-table-angular.js"
   ],

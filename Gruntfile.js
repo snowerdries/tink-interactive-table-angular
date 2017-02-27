@@ -312,7 +312,8 @@ module.exports = function (grunt) {
       test: [
         'copy:styles'
       ],
-      dist: [       
+      dist: [
+        'sass',
         'svgmin'
       ]
     },
